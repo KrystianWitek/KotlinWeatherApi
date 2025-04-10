@@ -3,10 +3,9 @@ package com.witek.weatherapi.dto
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.math.BigDecimal
-import java.time.LocalDateTime
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-data class CurrentWeatherDto(
+data class CurrentWeatherResponse(
 
     @JsonProperty("LocalObservationDateTime")
     val localObservationDate: String,

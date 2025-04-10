@@ -3,7 +3,7 @@ spring:
     mongodb:
       uri: mongodb://paypo:paypo@localhost:27017/scoring?retryWrites=false&authSource=admin&ssl=false
   config:
-    import: optional:file:.env-variables[.properties]
+    import: optional:file:.env-variables.local[.properties]
 
 accuweather:
   apikey: ${ACCU_WEATHER_API_KEY}

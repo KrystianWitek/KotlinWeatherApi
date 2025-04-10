@@ -1,6 +1,6 @@
 package com.witek.weatherapi
 
-import com.witek.weatherapi.dto.CurrentWeatherDto
+import com.witek.weatherapi.dto.CurrentWeatherResponse
 import com.witek.weatherapi.dto.LocationKeyDto
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.http.MediaType
@@ -31,5 +31,5 @@ interface AccuWeatherClient {
     fun getCurrentConditions(
         @PathVariable locationKey: String,
         @RequestParam("apikey") apiKey: String,
-    ): List<CurrentWeatherDto>
+    ): List<CurrentWeatherResponse>
 }
