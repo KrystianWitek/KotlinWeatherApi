@@ -11,7 +11,7 @@
     <groupId>com.witek</groupId>
     <artifactId>WeatherAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>WeatherAPI</name>
+    <name>KotlinWeatherAPI</name>
     <description>WeatherAPI with Kotlin</description>
 
     <properties>
