@@ -7,5 +7,5 @@ import org.springframework.boot.context.properties.bind.ConstructorBinding
 @ConfigurationProperties(prefix = "accuweather")
 data class AccuWeatherProperties @ConstructorBinding constructor(
     @field:NotBlank val apikey: String,
-    @field:NotBlank private val url: String
+    @field:NotBlank val url: String
 )

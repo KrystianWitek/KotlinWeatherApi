@@ -20,6 +20,7 @@ To run application you need to provide these env variables:
 
 ### Tests stack:
 
-- Junit --- TODO
+- Junit
 - WebMVC test --- TODO
 - MongoDataTest --- TODO
+- WireMock test --- TODO
